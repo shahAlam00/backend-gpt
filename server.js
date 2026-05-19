@@ -17,6 +17,9 @@ app.listen(PORT, () => {
     connectDB();
 });
 
+app.get("/", (req, res) => {
+    res.send("test was successful");
+});
 const connectDB = async() => {
     try {
         await mongoose.connect(process.env.MONGODB_URI);
