@@ -18,13 +18,13 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send("test was successful");
+    res.send("Update :test was successful");
 });
-const connectDB = async() => {
+const connectDB = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URI);
         console.log("Connected with Database!");
-    } catch(err) {
+    } catch (err) {
         console.log("Failed to connect with Db", err);
     }
 }
