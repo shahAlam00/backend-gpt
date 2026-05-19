@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send("FInal Update Shah rukh:test was successful");
+    res.send("FInal Update Shah Alam:test was successful");
 });
 const connectDB = async () => {
     try {
