@@ -37,6 +37,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
+<<<<<<< HEAD
       - name: Build Project
         run: npm run build --if-present
 
@@ -44,3 +45,8 @@ jobs:
         run: |
           pm2 list
           pm2 restart backend-gpt --update-env
+=======
+      - run: npm run build --if-present
+ 
+      - run: sudo pm2 restart backend-gpt
+>>>>>>> d76496fad6238cdb0edf330c5f4a4139d92919b9
