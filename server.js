@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.MONGODB_URI);
+        await mongoose.connect("mongodb+srv://shahsaifi8279_db_user:alamShah@cluster0.9rqcx3f.mongodb.net/lawyer-backend");
         console.log("Connected with Database!");
     } catch (err) {
         console.log("Failed to connect with Db", err);
