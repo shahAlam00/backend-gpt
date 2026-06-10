@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send("Hllo Bro ,I am Shah Alam Software Engineer and I am learning MERN Stack Development");
+    res.send("Hllo  ,I am Shah Alam Software Engineer and I am learning MERN Stack Development");
 });
 const connectDB = async () => {
     try {
