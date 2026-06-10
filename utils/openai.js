@@ -10,7 +10,7 @@ const getOpenAIAPIResponse = async(message) => {
         body: JSON.stringify({
             model: "gpt-4o-mini",
             messages: [{
-                role: "user",
+                role: "user", 
                 content: message
             }]
         })
