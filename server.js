@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send("Hllo  ,I am Shah Alam Software Engineer");
+    res.send("Hllo  ,I am Shah Alam Full Stack Developer");
 });
 const connectDB = async () => {
     try {
