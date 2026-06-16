@@ -8,7 +8,7 @@ const app = express();
 const PORT = 8080;
 
 
-const unused = 10;
+
 
 
 app.use(express.json());
